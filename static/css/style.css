@@ -1,0 +1,55 @@
+/* Styling for the webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5d7;
+    margin: 40px;
+    color: #333333;
+}
+/* Style all paragraphs */
+p {
+    font-size: 16px;
+    color: #0f0f0f;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* Style all level two headers */
+h2 {
+    color: #1d466b;
+    font-size: 24px;
+    border-bottom: 2px solid #1d466b;
+    padding-bottom: 8px;
+}
+/* Style all tables and their borders */
+table, th, td {
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #ff5e6c;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+}
+/* Style the Career Goals paragraph using its ID */
+p#career-goals {
+    background-color: #e6f0fa;
+    color: #1d466b;
+    padding: 15px;
+    border-left: 4px solid #1d466b;
+}
+
+/* Class selector for the main heading */
+.page-title {
+    color: #17365d;
+    text-align: center;
+    font-size: 32px;
+}
+/* Width and height to image with the logo */
+img.logo {
+    width: 300px;
+    height: 100px;
+}

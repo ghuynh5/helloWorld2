@@ -30,7 +30,6 @@ table {
     width: 100%;
     margin-top: 15px;
 }
-
 th, td {
     padding: 10px;
 }
@@ -41,7 +40,6 @@ p#career-goals {
     padding: 15px;
     border-left: 4px solid #1d466b;
 }
-
 /* Class selector for the main heading */
 .page-title {
     color: #17365d;
@@ -52,4 +50,44 @@ p#career-goals {
 img.logo {
     width: 300px;
     height: 100px;
+}
+/* For student page */
+body {
+    margin: 0;
+    background-color: #f8f9fa;
+}
+/* Make the top bar stretch full width */
+.container-fluid {
+    background-color: #c8102e;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px;
+}
+/* Keep links white */
+.container-fluid a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.container-fluid a:hover {
+    color: white;
+}
+/* Red headings */
+h1, h2, h3 {
+    color: #c8102e;
+}
+/* Red primary buttons */
+.btn-primary {
+    background-color: #c8102e;
+    border-color: #c8102e;
+}
+.btn-primary:hover {
+    background-color: #a50e26;
+    border-color: #a50e26;
+}
+/* Normal gray table borders */
+table,
+th,
+td {
+    border-color: #dee2e6;
 }
